@@ -1,0 +1,1297 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/okonet/react-dropzone"
+
+    >react-dropzone (v3.12.4)</a>
+</h1>
+<h4>Simple HTML5 drag-drop zone with React.js</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone">module react-dropzone</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.react-dropzone">
+            function <span class="apidocSignatureSpan"></span>react-dropzone
+            <span class="apidocSignatureSpan">(props, context)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.children">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.children
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.className">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.className
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.maxSize">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.maxSize
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onClick">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.onClick
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.preventDropOnDocument">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.preventDropOnDocument
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.style">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.style
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.toString">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.wallaby_config">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>wallaby_config
+            <span class="apidocSignatureSpan">({ files: [ &#x27;package.json&#x27;, &#x27;src*.js.snap&#x27;, &#x27;!src/*.spec.js&#x27; ], tests: [&#x27;src/*.spec.js&#x27;], compilers: { &#x27;src/*.js&#x27;: wallaby.compilers.babel()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-dropzone.</span>defaultProps</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-dropzone.</span>propTypes</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone.propTypes">module react-dropzone.propTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.accept">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>accept
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.activeClassName">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>activeClassName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.activeStyle">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>activeStyle
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.children">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>children
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.className">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>className
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.disableClick">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>disableClick
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.disablePreview">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>disablePreview
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.inputProps">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>inputProps
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.maxSize">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>maxSize
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.minSize">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>minSize
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.multiple">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>multiple
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.name">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>name
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onClick">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onClick
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onDragEnter">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDragEnter
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onDragLeave">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDragLeave
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onDragOver">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDragOver
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onDragStart">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDragStart
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onDrop">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDrop
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onDropAccepted">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDropAccepted
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onDropRejected">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDropRejected
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onFileDialogCancel">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onFileDialogCancel
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.preventDropOnDocument">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>preventDropOnDocument
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.rejectClassName">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>rejectClassName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.rejectStyle">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>rejectStyle
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.style">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>style
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone.propTypes.children">module react-dropzone.propTypes.children</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.children.children">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>children
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.children.isRequired">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.children.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone.propTypes.className">module react-dropzone.propTypes.className</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.className.className">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>className
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.className.isRequired">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.className.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone.propTypes.maxSize">module react-dropzone.propTypes.maxSize</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.maxSize.maxSize">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>maxSize
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.maxSize.isRequired">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.maxSize.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone.propTypes.onClick">module react-dropzone.propTypes.onClick</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onClick.onClick">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onClick
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.onClick.isRequired">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.onClick.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone.propTypes.preventDropOnDocument">module react-dropzone.propTypes.preventDropOnDocument</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.preventDropOnDocument.preventDropOnDocument">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>preventDropOnDocument
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.preventDropOnDocument.isRequired">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.preventDropOnDocument.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone.propTypes.style">module react-dropzone.propTypes.style</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.style.style">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>style
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.propTypes.style.isRequired">
+            function <span class="apidocSignatureSpan">react-dropzone.propTypes.style.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone.toString">module react-dropzone.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.toString.toString">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-dropzone.wallaby_config">module react-dropzone.wallaby_config</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-dropzone.wallaby_config.wallaby_config">
+            function <span class="apidocSignatureSpan">react-dropzone.</span>wallaby_config
+            <span class="apidocSignatureSpan">({ files: [ &#x27;package.json&#x27;, &#x27;src*.js.snap&#x27;, &#x27;!src/*.spec.js&#x27; ], tests: [&#x27;src/*.spec.js&#x27;], compilers: { &#x27;src/*.js&#x27;: wallaby.compilers.babel()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone" id="apidoc.module.react-dropzone">module react-dropzone</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.react-dropzone" id="apidoc.element.react-dropzone.react-dropzone">
+        function <span class="apidocSignatureSpan"></span>react-dropzone
+        <span class="apidocSignatureSpan">(props, context)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Dropzone(props, context) {
+	    _classCallCheck(this, Dropzone);
+	
+	    var _this = _possibleConstructorReturn(this, (Dropzone.__proto__ || Object.getPrototypeOf(Dropzone)).call(this, props, context
+));
+	
+	    _this.renderChildren = function (children) {
+	      if (typeof children === &#x27;function&#x27;) {
+	        return children(_this.state);
+	      }
+	      return children;
+	    };
+	
+	    _this.onClick = _this.onClick.bind(_this);
+	    _this.onDocumentDrop = _this.onDocumentDrop.bind(_this);
+	    _this.onDragStart = _this.onDragStart.bind(_this);
+	    _this.onDragEnter = _this.onDragEnter.bind(_this);
+	    _this.onDragLeave = _this.onDragLeave.bind(_this);
+	    _this.onDragOver = _this.onDragOver.bind(_this);
+	    _this.onDrop = _this.onDrop.bind(_this);
+	    _this.onFileDialogCancel = _this.onFileDialogCancel.bind(_this);
+	    _this.fileAccepted = _this.fileAccepted.bind(_this);
+	    _this.setRef = _this.setRef.bind(_this);
+	    _this.isFileDialogActive = false;
+	    _this.state = {
+	      isDragActive: false,
+	      acceptedFiles: [],
+	      rejectedFiles: []
+	    };
+	    return _this;
+	  }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.children" id="apidoc.element.react-dropzone.propTypes.children">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.children
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.children = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.className" id="apidoc.element.react-dropzone.propTypes.className">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.className
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.className = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.maxSize" id="apidoc.element.react-dropzone.propTypes.maxSize">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.maxSize
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.maxSize = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onClick" id="apidoc.element.react-dropzone.propTypes.onClick">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.onClick
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.onClick = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.preventDropOnDocument" id="apidoc.element.react-dropzone.propTypes.preventDropOnDocument">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.preventDropOnDocument
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.preventDropOnDocument = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.style" id="apidoc.element.react-dropzone.propTypes.style">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>propTypes.style
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.style = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.toString" id="apidoc.element.react-dropzone.toString">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.wallaby_config" id="apidoc.element.react-dropzone.wallaby_config">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>wallaby_config
+        <span class="apidocSignatureSpan">({ files: [ &#x27;package.json&#x27;, &#x27;src*.js.snap&#x27;, &#x27;!src/*.spec.js&#x27; ], tests: [&#x27;src/*.spec.js&#x27;], compilers: { &#x27;src/*.js&#x27;: wallaby.compilers.babel()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">wallaby =&#x3e; ({ files: [ &#x27;package.json&#x27;, &#x27;src*.js.snap&#x27;, &#x27;!src/*.spec.js&#x27; ], tests: [&#x27;src/*.spec.js&#x27;], compilers: { &#x27;src/*.js&#x27;: wallaby.compilers.babel()
+  },
+
+  env: {
+    type: &#x27;node&#x27;,
+    runner: &#x27;node&#x27;,
+    params: {
+      runner: &#x27;--harmony_proxies&#x27;
+    }
+  },
+
+  testFramework: &#x27;jest&#x27;,
+
+  setup: () =&#x3e; {
+    wallaby.testFramework.configure(require(&#x27;./package.json&#x27;).jest);
+  }
+
+})</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone.propTypes" id="apidoc.module.react-dropzone.propTypes">module react-dropzone.propTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.accept" id="apidoc.element.react-dropzone.propTypes.accept">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>accept
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">accept = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.activeClassName" id="apidoc.element.react-dropzone.propTypes.activeClassName">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>activeClassName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">activeClassName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.activeStyle" id="apidoc.element.react-dropzone.propTypes.activeStyle">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>activeStyle
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">activeStyle = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.children" id="apidoc.element.react-dropzone.propTypes.children">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>children
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">children = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.className" id="apidoc.element.react-dropzone.propTypes.className">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>className
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">className = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.disableClick" id="apidoc.element.react-dropzone.propTypes.disableClick">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>disableClick
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">disableClick = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.disablePreview" id="apidoc.element.react-dropzone.propTypes.disablePreview">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>disablePreview
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">disablePreview = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.inputProps" id="apidoc.element.react-dropzone.propTypes.inputProps">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>inputProps
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">inputProps = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.maxSize" id="apidoc.element.react-dropzone.propTypes.maxSize">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>maxSize
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">maxSize = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.minSize" id="apidoc.element.react-dropzone.propTypes.minSize">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>minSize
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">minSize = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.multiple" id="apidoc.element.react-dropzone.propTypes.multiple">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>multiple
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">multiple = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.name" id="apidoc.element.react-dropzone.propTypes.name">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>name
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">name = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onClick" id="apidoc.element.react-dropzone.propTypes.onClick">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onClick
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onClick = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onDragEnter" id="apidoc.element.react-dropzone.propTypes.onDragEnter">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDragEnter
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onDragEnter = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onDragLeave" id="apidoc.element.react-dropzone.propTypes.onDragLeave">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDragLeave
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onDragLeave = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onDragOver" id="apidoc.element.react-dropzone.propTypes.onDragOver">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDragOver
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onDragOver = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onDragStart" id="apidoc.element.react-dropzone.propTypes.onDragStart">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDragStart
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onDragStart = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onDrop" id="apidoc.element.react-dropzone.propTypes.onDrop">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDrop
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onDrop = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onDropAccepted" id="apidoc.element.react-dropzone.propTypes.onDropAccepted">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDropAccepted
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onDropAccepted = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onDropRejected" id="apidoc.element.react-dropzone.propTypes.onDropRejected">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onDropRejected
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onDropRejected = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onFileDialogCancel" id="apidoc.element.react-dropzone.propTypes.onFileDialogCancel">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onFileDialogCancel
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onFileDialogCancel = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.preventDropOnDocument" id="apidoc.element.react-dropzone.propTypes.preventDropOnDocument">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>preventDropOnDocument
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">preventDropOnDocument = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.rejectClassName" id="apidoc.element.react-dropzone.propTypes.rejectClassName">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>rejectClassName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">rejectClassName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.rejectStyle" id="apidoc.element.react-dropzone.propTypes.rejectStyle">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>rejectStyle
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">rejectStyle = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.style" id="apidoc.element.react-dropzone.propTypes.style">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>style
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">style = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone.propTypes.children" id="apidoc.module.react-dropzone.propTypes.children">module react-dropzone.propTypes.children</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.children.children" id="apidoc.element.react-dropzone.propTypes.children.children">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>children
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">children = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.children.isRequired" id="apidoc.element.react-dropzone.propTypes.children.isRequired">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.children.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone.propTypes.className" id="apidoc.module.react-dropzone.propTypes.className">module react-dropzone.propTypes.className</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.className.className" id="apidoc.element.react-dropzone.propTypes.className.className">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>className
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">className = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.className.isRequired" id="apidoc.element.react-dropzone.propTypes.className.isRequired">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.className.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone.propTypes.maxSize" id="apidoc.module.react-dropzone.propTypes.maxSize">module react-dropzone.propTypes.maxSize</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.maxSize.maxSize" id="apidoc.element.react-dropzone.propTypes.maxSize.maxSize">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>maxSize
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">maxSize = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.maxSize.isRequired" id="apidoc.element.react-dropzone.propTypes.maxSize.isRequired">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.maxSize.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone.propTypes.onClick" id="apidoc.module.react-dropzone.propTypes.onClick">module react-dropzone.propTypes.onClick</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onClick.onClick" id="apidoc.element.react-dropzone.propTypes.onClick.onClick">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>onClick
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onClick = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.onClick.isRequired" id="apidoc.element.react-dropzone.propTypes.onClick.isRequired">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.onClick.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone.propTypes.preventDropOnDocument" id="apidoc.module.react-dropzone.propTypes.preventDropOnDocument">module react-dropzone.propTypes.preventDropOnDocument</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.preventDropOnDocument.preventDropOnDocument" id="apidoc.element.react-dropzone.propTypes.preventDropOnDocument.preventDropOnDocument">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>preventDropOnDocument
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">preventDropOnDocument = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.preventDropOnDocument.isRequired" id="apidoc.element.react-dropzone.propTypes.preventDropOnDocument.isRequired">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.preventDropOnDocument.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone.propTypes.style" id="apidoc.module.react-dropzone.propTypes.style">module react-dropzone.propTypes.style</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.style.style" id="apidoc.element.react-dropzone.propTypes.style.style">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.</span>style
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">style = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.propTypes.style.isRequired" id="apidoc.element.react-dropzone.propTypes.style.isRequired">
+        function <span class="apidocSignatureSpan">react-dropzone.propTypes.style.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone.toString" id="apidoc.module.react-dropzone.toString">module react-dropzone.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.toString.toString" id="apidoc.element.react-dropzone.toString.toString">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-dropzone.wallaby_config" id="apidoc.module.react-dropzone.wallaby_config">module react-dropzone.wallaby_config</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-dropzone.wallaby_config.wallaby_config" id="apidoc.element.react-dropzone.wallaby_config.wallaby_config">
+        function <span class="apidocSignatureSpan">react-dropzone.</span>wallaby_config
+        <span class="apidocSignatureSpan">({ files: [ &#x27;package.json&#x27;, &#x27;src*.js.snap&#x27;, &#x27;!src/*.spec.js&#x27; ], tests: [&#x27;src/*.spec.js&#x27;], compilers: { &#x27;src/*.js&#x27;: wallaby.compilers.babel()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">wallaby =&#x3e; ({ files: [ &#x27;package.json&#x27;, &#x27;src*.js.snap&#x27;, &#x27;!src/*.spec.js&#x27; ], tests: [&#x27;src/*.spec.js&#x27;], compilers: { &#x27;src/*.js&#x27;: wallaby.compilers.babel()
+  },
+
+  env: {
+    type: &#x27;node&#x27;,
+    runner: &#x27;node&#x27;,
+    params: {
+      runner: &#x27;--harmony_proxies&#x27;
+    }
+  },
+
+  testFramework: &#x27;jest&#x27;,
+
+  setup: () =&#x3e; {
+    wallaby.testFramework.configure(require(&#x27;./package.json&#x27;).jest);
+  }
+
+})</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
