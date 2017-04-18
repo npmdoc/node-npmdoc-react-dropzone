@@ -1,4 +1,7 @@
-# api documentation for  [react-dropzone (v3.12.4)](https://github.com/okonet/react-dropzone)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-dropzone.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-dropzone) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-dropzone.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-dropzone)
+# npmdoc-react-dropzone
+
+#### api documentation for  [react-dropzone (v3.12.4)](https://github.com/okonet/react-dropzone)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-dropzone.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-dropzone) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-dropzone.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-dropzone)
+
 #### Simple HTML5 drag-drop zone with React.js
 
 [![NPM](https://nodei.co/npm/react-dropzone.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-dropzone)
